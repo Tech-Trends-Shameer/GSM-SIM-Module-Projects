@@ -11,7 +11,7 @@ SoftwareSerial fonaSS = SoftwareSerial(FONA_TX, FONA_RX);
 Adafruit_FONA fona = Adafruit_FONA(FONA_RST);
 
 
-char PHONE_1[21] = "xxxxxxxxxx"; // Enter your Number here.
+char PHONE_1[21] = "9182028931"; // Enter your Number here.
 
 char gasalert[141]= "Gas Leakage Detected"  ;
 int gas_sensor_pin = A0;
